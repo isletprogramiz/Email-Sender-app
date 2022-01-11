@@ -1,0 +1,57 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+    
+}
+
+h1{
+    font-style: italic;
+    font-size: 50px;
+  color: rgb(54, 5, 5);
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    from {color:rgb(60, 116, 15)}
+    to {color:rgb(211, 22, 22)}
+    
+  }
+
+input {
+    left:500px;
+    width: 400px;
+    height: 40px;
+    padding: 2px;
+    margin: 20px;
+}
+
+label {
+    color: blue;
+}
+
+form {
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    width: 600px;
+    background-color: rgb(225, 177, 247);
+    box-shadow: 5px 10px 10px rgb(170, 17, 170);
+}
+
+form>button {
+    width: 200px;
+    font-size: 30px;
+    margin: 10px;
+    padding: 1px;
+    color: white;
+    background-color: rgb(9, 29, 94);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+form>label {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
